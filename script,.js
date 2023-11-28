@@ -1,8 +1,8 @@
 // Daniel, Megan, Yihan, Sardar
 // November 2023
 
-$(document).ready(function() {
-    $('#mix-button').click(function() {
+$(document).ready(function () {
+    $('#mix-button').click(function () {
         var color1 = hexToRgb($('#color1').val());
         var color2 = hexToRgb($('#color2').val());
         var mixedColor = mixColors(color1, color2);
