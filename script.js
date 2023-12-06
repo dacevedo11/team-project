@@ -24,10 +24,6 @@ $(document).ready(function () {
         var b = Math.floor((color1.b + color2.b) / 2);
         return "rgb(" + r + "," + g + "," + b + ")";
     }
-<<<<<<< HEAD:project/js/lab.js
 });
 
 
-=======
-});
->>>>>>> 7a3d9fda8e6285e0c095530c58f984dc1b2b7fcb:script.js
