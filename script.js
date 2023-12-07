@@ -10,7 +10,6 @@
 
 $(document).ready(function() {
 
-
     $('#mix-button').click(function() {
         var color1 = hexToRgb($('#color1').val());
         var color2 = hexToRgb($('#color2').val());
@@ -34,3 +33,18 @@ $(document).ready(function() {
         return "rgb(" + r + "," + g + "," + b + ")";
     }
 });
+
+$("#easy").click(function(){
+//  should link to easy lvl
+
+})
+
+$("#medium").click(function(){
+// link to medium 
+
+})
+
+$("#hard").click(function(){
+// link to hard
+
+})

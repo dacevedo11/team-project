@@ -64,3 +64,8 @@ h1 {
 H2{
     text-align: center;
 }
+
+
+#color-mixer{
+    outline: 10px dashed;
+}
