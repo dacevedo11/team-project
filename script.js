@@ -1,8 +1,16 @@
 // Daniel, Megan, Yihan, Sardar
 // November 2023
 
-$(document).ready(function () {
-    $('#mix-button').click(function () {
+//  implement a function that hides the below and shows it only when one of the buttons is pressed
+// easy level
+//  click easy level:
+//          regular function that I have here
+// click medium level:
+//          
+
+$(document).ready(function() {
+
+    $('#mix-button').click(function() {
         var color1 = hexToRgb($('#color1').val());
         var color2 = hexToRgb($('#color2').val());
         var mixedColor = mixColors(color1, color2);
@@ -26,4 +34,17 @@ $(document).ready(function () {
     }
 });
 
+$("#easy").click(function(){
+//  should link to easy lvl
 
+})
+
+$("#medium").click(function(){
+// link to medium 
+
+})
+
+$("#hard").click(function(){
+// link to hard
+
+})

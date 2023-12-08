@@ -6,43 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Color Mixer</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/7c66d7972b.js" crossorigin="anonymous"></script>
+
+    <script src="script.js" defer></script>
+
 </head>
 
 <body>
-
-    <div id="title">
-        <h1>
-            <span class="red"><i class="fas fa-palette"></i></span>
-            <span class="blue">COLOR</span>
-            <span class="yellow">MIXER</span>
-        </h1>
-    </div>
-
     <div id="color-mixer">
-
-        <h2>Test Your Color Sense!</h2>
-
-        <div id="buttons-container">
-            <button id="easy">Easy</button>
-            <button id="medium">Medium</button>
-            <button id="hard">Hard</button>
+            <div class="title">
+            <h1>Color Mixer</h1>
+            </div>
+        <div class=" Levels">
+            <H2> Choose your difficulty</H2>
+            <button id="easy">EASY</button>
+            <button id="medium">MEDIUM</button>
+            <button id="hard">HARD</button>
         </div>
 
         <div id="mixer-controls">
             <input type="color" id="color1" name="color1" value="#ff0000">
+          
+        
+
             <input type="color" id="color2" name="color2" value="#00ff00">
+     
+            <br>
+
+
+            <button id="mix-button">Mix Colors</button>
         </div>
 
-        <button id="mix-button">Mix Colors</button>
-
         <div id="mixed-color-display"></div>
-
+        
     </div>
-
 </body>
 
 </html>
