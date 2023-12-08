@@ -41,13 +41,15 @@ function searchSuccess(data) {
                 synopsis: result.synopsis,
                 background: result.background,
                 season: result.season,
-                year: result.year
+                year: result.year,
+                imageURL: result.images.jpg.large_image_url
             };
 
             // Display information for each result in the #output div
             $("#output").append(`
                 <div class="result">
                     <h2>${animeInfo.title}</h2>
+                    <img src="${animeInfo.imageURL}" alt="${animeInfo.title}">
                     <p>Type: ${animeInfo.type}</p>
                     <p>Episodes: ${animeInfo.episodes}</p>
                     <p>Status: ${animeInfo.status}</p>
