@@ -14,6 +14,8 @@ $("#searchButton").click(function () {
         error: ajaxError
     };
 
+    console.log("New URL:", settings.url);
+
     $.ajax(settings);
 });
 
@@ -26,7 +28,7 @@ function searchSuccess(data) {
         // Loop through all the results
         data.data.forEach((result, index) => {
             const animeInfo = {
-                title: result.title,
+                title: result.title_english,
                 type: result.type,
                 episodes: result.episodes,
                 status: result.status,
