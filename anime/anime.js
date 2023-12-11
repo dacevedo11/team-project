@@ -1,6 +1,7 @@
 const baseURL = "https://api.jikan.moe/v4/anime";
 let searchQuery = ""; // Replace this with the search query entered by the user
 
+
 $("#searchButton").click(function () {
     // Get the search query from an input field or any other source
     searchQuery = $("#searchInput").val();
