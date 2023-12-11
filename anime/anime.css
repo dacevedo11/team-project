@@ -95,12 +95,13 @@ header {
     font-weight: bold;
 }
 
-.banner {
-    background-image: url('path-to-your-banner-image.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 300px; /* Adjust the height as needed */
+.banner img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Center image in case the parent .banner div is flex or grid container */
+    margin: 0 auto; /* Center image if it has a determined width */
 }
+
 
 .main-content {
     margin: 20px;
