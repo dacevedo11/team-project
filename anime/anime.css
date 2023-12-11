@@ -3,14 +3,14 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-    background-color: rgb(191, 173, 219);
+    background-color: rgba(214, 255, 48, 0.534);
     text-align: center;
 }
 
 header {
     text-align: center;
     padding: 20px 0;
-    background-color: #c7dec7;
+    background-color: #ffecec;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -98,19 +98,33 @@ header {
 .banner img {
     max-width: 100%;
     height: auto;
-    display: block; /* Center image in case the parent .banner div is flex or grid container */
-    margin: 0 auto; /* Center image if it has a determined width */
+    display: block; 
+    margin: 0 auto; 
 }
 
 
 .main-content {
     margin: 20px;
     padding: 20px;
-    background: #fff; /* Adjust your content background color as needed */
+    background: #fff; 
 }
 
 .main-content {
     margin: 20px;
     padding: 20px;
-    background: #fff; /* Adjust your content background color as needed */
+    background: #fff; 
 }
+
+body {
+    
+    background: linear-gradient(to bottom, 
+        rgb(255, 119, 119),         
+        rgb(255, 202, 104),       
+        yellow,       
+        rgb(160, 255, 160),       
+        rgb(143, 231, 255),         
+        #ffbcff,       
+        rgb(255, 150, 178));      
+    color:rgba(0, 0, 0, 0.1)
+}
+
