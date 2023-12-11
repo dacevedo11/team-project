@@ -79,3 +79,37 @@ header {
 }
 
 
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    padding: 0 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.banner {
+    background-image: url('path-to-your-banner-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px; /* Adjust the height as needed */
+}
+
+.main-content {
+    margin: 20px;
+    padding: 20px;
+    background: #fff; /* Adjust your content background color as needed */
+}
+
+.main-content {
+    margin: 20px;
+    padding: 20px;
+    background: #fff; /* Adjust your content background color as needed */
+}

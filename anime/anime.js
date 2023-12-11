@@ -77,3 +77,7 @@ function searchSuccess(data) {
 function ajaxError(request, status, error) {
     console.error("Oops:", request, status, error);
 }
+
+document.addEventListener('DOMContentLoaded', () => {
+    // JavaScript code for interactivity
+});
