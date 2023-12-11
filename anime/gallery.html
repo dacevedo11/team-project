@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anime API</title>
+    <title>Gallery</title>
     <link rel="stylesheet" href="anime.css">
-    <script src="anime.js" defer></script>
+    <script src="gallery.js" defer></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/7c66d7972b.js" crossorigin="anonymous"></script>
@@ -18,23 +18,17 @@
         
         <nav class="navbar">
             <ul>
-                <li>Anime API</li>
-                <a href="gallery.html">Gallery</a>
+                <a href="anime.html" >Anime API</a>
+                <li><a href="gallery.html">Gallery</a></li>
                 <li><a href="#community" id="communityLink">Community</a></li>
 
             </ul>
         </nav>
 
-        <div class="banner">
-            <img src="img/title2.png" alt="title">
-        </div>
+<!-- Gallery output -->
+<div id="output"></div>
 
-    
-    <div>
-        <label for="searchInput">Search for Anime:</label>
-        <input type="text" id="searchInput" placeholder="Enter anime title">
-        <button id="searchButton">Search</button>
-    </div>
+
     </header>
 
     <div id="output">
@@ -42,5 +36,4 @@
     </div>
 
 </body>
-
 </html>

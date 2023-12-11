@@ -125,6 +125,27 @@ body {
         rgb(143, 231, 255),         
         #ffbcff,       
         rgb(255, 150, 178));      
-    color:rgba(0, 0, 0, 0.702)
+
+    color:rgb(172, 44, 95);
 }
 
+.navbar {
+    background-color:rgb(251, 168, 95);
+    padding: 10px;
+}
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.gallery-item {
+    width: 300px;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    overflow: hidden;
+}
