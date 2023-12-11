@@ -141,10 +141,17 @@ body {
     margin: 20px;
 }
 
-.gallery-item {
-    width: 300px;
+.gallery img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
     margin: 10px;
+    border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 4px;
-    overflow: hidden;
+    cursor: pointer;
+}
+
+.searchInput {
+    font-size: 1.2em;
+    padding: 15px;
 }
